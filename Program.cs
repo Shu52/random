@@ -27,8 +27,6 @@ namespace random
                 SqrNums.Add(number * number);
             }
 
-
-
             SqrNums.RemoveAll(number => number % 2 == 0);
             foreach (int SqrNum in SqrNums)
             {
